@@ -10,11 +10,16 @@ public class javademo {
     {
         System.out.println("This is the message");
     }
+    void Tax()
+    {
+        System.out.println("The Tax collected");
+    }
     public static void main(String []args)
     {
         javademo j = new javademo();
         j.display();
         j.msg();
+        j.Tax();
     }
 
 }
