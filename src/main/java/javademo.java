@@ -6,10 +6,15 @@ public class javademo {
     {
         System.out.println(c);
     }
+    void msg()
+    {
+        System.out.println("This is the message");
+    }
     public static void main(String []args)
     {
         javademo j = new javademo();
         j.display();
+        j.msg();
     }
 
 }
